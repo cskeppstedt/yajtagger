@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>yajtagger demo</title>
+        <link rel="stylesheet" type="text/css" href="css/yajtagger.css" />
+        <link rel="stylesheet" type="test/css" href="css/demo.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/jquery.watermark.min.js"></script>
+        <script type="text/javascript" src="scripts/yajtagger.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $(':text').yajtagger();
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>yajtagger demo</h1>
+            <h2>Yet another jQuery tagger</h2>
+        </header>
+        <article>
+            <h3>Tags #1</h3>
+            <input type="text" name="tags1" id="tags1" value="prefilled,tags,here" />
+        </article>
+        <article>
+            <h3>Tags #2</h3>
+            <input type="text" name="tags2" id="tags2" />
+        </article>
+    </body>
+</html>

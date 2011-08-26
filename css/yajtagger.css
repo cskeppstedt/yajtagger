@@ -1,0 +1,62 @@
+ul.yajtagger {
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.yajtagger li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 10px 10px 0;
+	font-size: 14px;
+	cursor: default;
+}
+
+ul.yajtagger li.yajtagger-tag 
+{
+	padding: .2em .2em .2em .5em;
+    position: relative;
+    line-height: inherit;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+	border: 1px solid #E3DB7D;
+    background: #F0E98B;
+}
+
+li.yajtagger-tag a
+{
+	padding: 0 .5em;
+	text-decoration: none;
+	color: #555;
+}
+
+li.yajtagger-tag a:focus,
+li.yajtagger-tag a:hover
+{
+	color: Red;
+	outline: 0;
+	background: rgba(255, 0, 0, 0.1);
+}
+
+li.yajtagger-input input
+{
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	padding: 5px 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-size: 14px;
+	width: 7em;
+}
+
+li.yajtagger-input input.watermark
+{
+	text-decoration: underline;
+	color: #333;
+	cursor: pointer;
+}
+

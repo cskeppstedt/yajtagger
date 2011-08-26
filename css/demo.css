@@ -1,0 +1,17 @@
+html, body
+{
+    margin: 0;
+    padding: 20px;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+}
+
+h1,h2,h3
+{
+    margin: 0;
+    padding: 1em 0;
+}
+
+article
+{
+    clear: both;
+}
