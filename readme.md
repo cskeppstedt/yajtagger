@@ -7,7 +7,7 @@ The basic ideas for yajtagger:
 - Maintain keyboard accessibility, the UI should be friendly to keyboard-only operators.
 - Gracefully degrade. If Javascript is disabled, that's fine because the underlying element
   is a textbox where you can just type your tags. If the CSS is missing, the tags are 
-  neatly lined up in an <ul> with the textbox at the bottom.
+  neatly lined up in an ul with the textbox at the bottom.
 - The "remove"-link is not an image, it uses a unicode "x", so it doesn't rely on images.
 - Make adding/removing tags programmatically accessible through public methods.
 - Always parse the value-attribute of the textbox on init to pre-populate tags.
@@ -54,4 +54,3 @@ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR P
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
 DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
