@@ -4,13 +4,13 @@ _Yet another jQuery tagger_. I wasn't happy with any of the jQuery
 plugins for tag-editing that I found, so I wrote my own.
 
 The basic ideas for yajtagger:
-- Maintain keyboard accessibility, the UI should be friendly to keyboard-only operators.
-- Gracefully degrade. If Javascript is disabled, that's fine because the underlying element
-  is a textbox where you can just type your tags. If the CSS is missing, the tags are 
-  neatly lined up in an ul with the textbox at the bottom.
-- The "remove"-link is not an image, it uses a unicode "x", so it doesn't rely on images.
-- Make adding/removing tags programmatically accessible through public methods.
-- Always parse the value-attribute of the textbox on init to pre-populate tags.
+ - Maintain keyboard accessibility, the UI should be friendly to keyboard-only operators.
+ - Gracefully degrade. If Javascript is disabled, that's fine because the underlying element
+   is a textbox where you can just type your tags. If the CSS is missing, the tags are 
+   neatly lined up in an ul with the textbox at the bottom.
+ - The "remove"-link is not an image, it uses a unicode "x", so it doesn't rely on images.
+ - Make adding/removing tags programmatically accessible through public methods.
+ - Always parse the value-attribute of the textbox on init to pre-populate tags.
 
 Demo and documentation
 ----------------
@@ -32,8 +32,8 @@ by passing strings to the init-method. This will be my first priority.
 ### Public events
 
 Implement events so that you can get a callback when
-- A tag is added
-- A tag is removed
+ - A tag is added
+ - A tag is removed
     
 License
 -------
